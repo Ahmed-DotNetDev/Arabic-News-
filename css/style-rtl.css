@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
+
+
+body {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+}
+
+.navbar {
+    box-shadow: 1px 2px 5px #ebebeb;
+}
+
+.home {
+    background-image: url("../images/slide-bg-1.jpg");
+    height: 600px;
+    background-size: cover;
+}
+
+.home-item {
+    position: absolute;
+    top: 40%;
+    right: 44%;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+}
+
+.home-item h2 {
+    font-size: 40px;
+}
+
+.section-title {
+    position: relative;
+}
+
+.section-title::after {
+    content: " ";
+    display: block;
+    bottom: -20px;
+    width: 120px;
+    height: 6px;
+    margin-top: 6px;
+    background-color: #ffc107;
+}
+
+img {
+    border-radius: 2px;
+}
+
+p {
+    letter-spacing: 1.1px;
+    padding: 5px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+@media (max-width:768px) {
+    .home-item {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+span {
+    display: flex;
+    padding-right: 95px;
+    margin-top: -57px;
+}
+
+.section-subscribe {
+    position: relative;
+}
+
+.subscribe-item {
+    position: absolute;
+    top: 40%;
+    right: 48%;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+}
+
+.subscribe-item input {
+    width: 60%;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.controls input {
+    margin-left: 10px;
+}
+
+.section-footer {
+    padding-top: 40px;
+    background-color: #071c33;
+    color: white;
+    font-size: 13px;
+}
+
+.links {
+    color: #ffc527;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: #cea22a;
+}
