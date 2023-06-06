@@ -114,3 +114,24 @@ span {
     text-decoration: none;
     color: #cea22a;
 }
+
+.container-jum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jum-links:hover {
+    text-decoration: none;
+
+}
+
+.jum-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron{
+    border-bottom: 2px solid rgba(255, 255, 0, 0.829);
+}
